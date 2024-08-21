@@ -225,21 +225,21 @@ console.log(dayName1);
 // 17. Write a switch statement that checks a variable `grade` (A, B, C, D, F) and sets `description` to a corresponding message (e.g., "Excellent", "Good", etc.).
 //     Hint: Use a switch statement with cases for each grade letter.
 let grade1 = "B";
-let talk;
+let say;
 
 switch (grade1) {
 case A:
-    talk = "hi";
+    say = "hi";
 case B:
-    talk = "birthday";
+    say = "birthday";
 case C:
-    talk = "good";
+    say = "good";
 case D:
-    talk = "ok";
+    say = "ok";
 case F:
-    talk = "Excellent";
+    say = "Excellent";
 }          
-console.log(talk);
+console.log(say);
 
 // 18. Create an if-else statement that checks if a variable `number` is positive, negative, or zero. Set a variable `sign` accordingly.
 //     Hint: Use nested if-else statements or else if statements.
