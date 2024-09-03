@@ -224,6 +224,31 @@ console.log(dayName1);
 
 // 17. Write a switch statement that checks a variable `grade` (A, B, C, D, F) and sets `description` to a corresponding message (e.g., "Excellent", "Good", etc.).
 //     Hint: Use a switch statement with cases for each grade letter.
+let grade1 = "A";  // משתנה grade1 מכיל את הערך "A"
+let say;  // משתנה say יכיל את ההודעה שנבחרה
+
+switch (grade1) {
+  case "A":
+    say = "hi";
+    break;
+  case "B":
+    say = "birthday";
+    break;
+  case "C":
+    say = "good";
+    break;
+  case "D":
+    say = "ok";
+    break;
+  case "F":
+    say = "Excellent";
+    break;
+  default:
+    say = "Invalid grade";
+}
+
+console.log(say); // זה ידפיס את הערך שנשמר ב-say
+
 // 18. Create an if-else statement that checks if a variable `number` is positive, negative, or zero. Set a variable `sign` accordingly.
 //     Hint: Use nested if-else statements or else if statements.
 
