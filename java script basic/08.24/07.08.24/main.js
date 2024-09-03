@@ -13,7 +13,7 @@ let canVote;
 if (age >= 18){
 
 canVote = true;
-}else {
+} else {
     canVote = false}
 console.log(canVote);
 
@@ -23,7 +23,7 @@ let temperature = -1;
 let weather;
 if (temperature < 0){
     weather = "freezing";
-}else {
+} else {
     weather = "not freezing"};
 console.log(weather);
 
@@ -33,7 +33,7 @@ let score = 85;
 let result;
 if (score >= 60){
     result = "pass";
-}else {
+} else {
     result = "fail"};
 console.log(result);
 
@@ -68,7 +68,7 @@ let year = 12;
 let isLeapYear;
 if (year % 4 === 0){
     isLeapYear = true;
-}else {
+} else {
     isLeapYear = false}
 console.log(isLeapYear);
 
@@ -80,7 +80,7 @@ if (hour < 12){
     period = 'AM';
 
 
-}else {
+} else {
     period = 'PM'};
 console.log(period);
 
