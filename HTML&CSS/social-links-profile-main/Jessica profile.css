@@ -1,0 +1,58 @@
+
+@import url("./css/reset.css");
+
+body{
+  background-color: rgb(13, 13, 13);
+  display: flex;
+  justify-content: center;
+}
+.container{
+  border: 2px solid black;
+  border-radius: 15px;
+  margin-top: 150px;
+  padding-top: 30px;
+  color: white;
+  background-color: rgba(27, 28, 28, 0.768);
+  height: 650px;
+  width: 320px;
+  text-align: center;
+}
+
+img{
+  border-radius: 100px;
+  cursor: pointer;
+}
+.p1{
+  font: icon;
+  font-size: x-large;
+}
+
+.p2{
+  color: greenyellow;
+  font: icon;
+  font-size: smaller;
+  margin-bottom: 30px;
+}
+
+.p3{
+  font: icon;
+  font-size: smaller;
+}
+
+button{
+  color: whitesmoke;
+  background-color: rgba(61, 60, 60, 0.566);
+  font: icon;
+  padding: 5px;
+  padding-bottom: 5px;
+  border-radius: 12px;
+  width: 280px;
+  height: 40px;
+  margin: 7px;
+  font: icon; 
+  cursor: pointer;
+}
+
+
+
+

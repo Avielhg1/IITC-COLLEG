@@ -1,0 +1,43 @@
+<!DOCTYPE html> <!--הצהרה זו מגדירה שהמסמך הוא מסמך HTML5, וזהו שלב חשוב כי זה מבטיח שהדפדפן ידע לקרוא את התוכן בצורה הנכונה.-->
+<html lang="en"> <!--מציינת שהשפה של העמוד היא אנגלית.-->
+<head>
+  <meta charset="UTF-8"> <!--תגית זו מבטיחה שהדף יתמוך בתווים מכל השפות, כולל עברית, על ידי שימוש בקידוד UTF-8.-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--תגית זו מבטיחה שהאתר יתאים למכשירים ניידים על ידי כך שהוא מתאים את הגודל של התצוגה.-->
+  <title> first project </title> <!--הכותרת של הדפדפן-->
+  <style>
+    body {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <!-- תיבות הטקסט -->
+  <div style="border: 2px solid blue; padding: 20px; margin: 20px;">
+    <p style="color: red;">1st Lorem ipsum dolor sit amet consectetur</p>
+    <p style="color: red;">2nd Lorem ipsum dolor <span style="color: black; font-weight: bold;">BLACK</span>sit amet consectetur</p>
+    <p style="background-color: gray; padding: 10px; color: white;">3rd Lorem ipsum dolor sit amet consectetur</p>
+  </div>
+
+  <!-- העיגולים הצבעוניים -->
+  <div style="border: 2px solid blue; padding: 20px; margin: 20px;">
+    <div style="display: flex; justify-content: space-around;">
+      <div style="background-color: red; width: 100px; height: 100px; border-radius: 50%;"></div>
+      <div style="background-color: blue; width: 100px; height: 100px; border-radius: 50%;"></div>
+      <div style="background-color: green; width: 100px; height: 100px; border-radius: 50%;"></div>
+    </div>
+  </div>
+
+  <!-- מיקומים של left, middle, right -->
+  <div style="border: 2px solid blue; padding: 20px; margin: 20px; position: relative; background-color: red; height: 200px;">
+    <div style="position: absolute; top: 10px; left: 10px; background-color: black; color: white; padding: 5px;">left</div>
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: black; color: white; padding: 10px; border-radius: 50%; box-shadow: 0 0 10px white;">middle</div>
+    <div style="position: absolute; top: 10px; right: 10px; background-color: black; color: white; padding: 5px;">right</div>
+  </div>
+
+  <!-- הכפתורים בתחתית -->
+  <div style="border: 2px solid blue; padding: 20px; margin: 20px; display: flex; justify-content: center; gap: 10px;">
+    <button style="background-color: purple; color: white; padding: 10px 20px; border: none; border-radius: 5px;">EXPLORE</button>
+    <button style="background-color: purple; color: white; padding: 10px 20px; border: none; border-radius: 5px;">JOIN</button>
+  </div>
+</body>
+</html>

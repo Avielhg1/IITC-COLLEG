@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Positioning Assignment</title>
+    <style>
+        body{
+            background-color: rgba(0, 0, 0, 0.94);
+        }
+        header {
+    background-color: rgba(0, 0, 0, 0.94);
+    color: whitesmoke;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.container {
+    position: relative; /* ההורה של הסיידבר */
+}
+
+aside {
+    width: 200px;
+    height: 100vh; /* גובה מלא */
+    background-color: lightgray;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+aside img{
+    position: sticky;
+    top: 20px;
+}
+main {
+    margin-left: 220px; /* רווח מהסיידבר */
+    background-color: #928e8e;
+    position: relative;
+    top: 10px; /* זז מעט כלפי מטה */
+    padding: 80px;
+    padding-bottom: 525px;
+}
+main p{
+        font-size: large;
+    }
+main h2{
+        font-size: xx-large;
+    }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(224, 129, 6);
+    text-align: center;
+    padding: 10px;
+}
+.floating-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+a{
+    color: rgb(224, 129, 6);
+    font-size: large;
+    word-spacing: 5px;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My first page in Html & Css:</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Profile</a>
+            <a href="#">Menu</a>
+            <a href="#">Edit</a>
+            <a href="#">Login</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside>
+            <img src="images/yellow left side.jpeg" alt="Sidebar Image" height="800" width="220">
+            
+        </aside>
+
+        <main>
+            <h2>Main Content</h2>
+            <p>Lorem ipsum dolor sit amet...</p>
+            <p>Lorem ipsum dolor sit amet...</p>
+            <p>Lorem ipsum dolor sit amet...</p>
+            <p>Lorem ipsum dolor sit amet...</p>
+        </main>
+    </div>
+
+    <footer>
+        <p>Aviel hagag (c)</p>
+    </footer>
+
+    <button class="floating-btn">Click Me</button>
+
+</body>
+</html>
